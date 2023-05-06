@@ -5,7 +5,7 @@ Telegram Bot with messages handling on Golang
 
 t.me/pravdorubka_bot
 
-1. run ./kbot start in Terminal
+1. run export TELE_TOKEN=.... and ./kbot start in Terminal
 
 2. open t.me/pravdorubka_bot in Telegram App
 
