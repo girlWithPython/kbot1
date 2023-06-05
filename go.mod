@@ -1,4 +1,4 @@
-module github.com/girlWithPython/kbot
+module github.com/girlWithPython/kbot1
 
 go 1.20
 
