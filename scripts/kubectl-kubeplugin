@@ -18,5 +18,12 @@ do
   # Output the statistics to the console
   # "Resource, Namespace, Name, CPU, Memory"
   echo Resource ${RESOURCE_TYPE}, Namespace ${Namespace}, Name ${NAME}, CPU ${CPU}, Memory ${MEMORY}
+  
+  if [ -z "$NAME" ]
+    then
+    echo "Output is empty"
+  fi
 done
+
+echo "I am a plugin named kubectl-kubeplugin. I am getting resource usage statistics from the kube-system namespace"
 
